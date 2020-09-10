@@ -1,0 +1,197 @@
+/* This is for background colors on categories--------------------------------------------------------------------------------- */
+.bg-action{
+    background-color: #9ca9aa;
+}
+.bg-comedy{
+    background-color: #add8e6;
+}
+.bg-psy{
+    background-color: #ff856f;
+}
+.bg-sol{
+    background-color: #40b5bc;
+}
+.bg-other{
+    background-color: #f8f8c1;
+}
+/* This is for font styling on all pages--------------------------------------------------------------------------------- */
+.content-font{
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-font{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+/* This is for card deck on index page--------------------------------------------------------------------------------- */
+/* media queries------------------------- */
+.img-thumbnail{
+    width: 100%;
+    height: 30rem;
+}
+/*@media (min-width: 1024px) {
+.fmab{
+    margin-left: 15%;
+}
+.op-man{
+    margin-left: 30px;
+}
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+#mt-n5{
+    margin-top: -2.9rem;
+    }
+} */
+.pick:hover{
+    color: #ddddd6;
+}
+.indborder:hover{
+    border: 3px solid black;
+    box-shadow: -10px -10px #0C4767;
+}
+.indborder1:hover{
+    border: 3px solid black;
+    box-shadow: 0px -10px #0C4767;
+}
+
+.indborder2:hover{
+    border: 3px solid black;
+    box-shadow: -10px 0px #0C4767;
+}
+
+.indborder3:hover{
+    border: 3px solid black;
+    box-shadow: 10px 0px #0C4767;
+}
+
+.indborder4:hover{
+    border: 3px solid black;
+    box-shadow: 10px -10px #0C4767;
+}
+.index{
+    background-color: #828A95;    
+}
+.index:visited{
+    color: #4F3130;
+}
+.index:hover{
+    color: #FEFEFF;
+}
+.index:active{
+    color: #FF1D15;
+}
+/* This is specific animation for logo--- */
+@keyframes anime{
+    0%   {background-color: #D5C5C8;}
+    8%  {background-color: #6096BA;}
+    17%  {background-color: #9DA3A4;}
+    26% {background-color: #961D4E;}
+    35% {background-color: #F2E2BA;}
+    44% {background-color: #904C77;}
+    51%   {background-color: #ADF6B1;}
+    60%  {background-color: #710000;}
+    69%  {background-color: #F0DCCA;}
+    78% {background-color: #F4B942;}
+    87% {background-color: #F2E29F;}
+    93% {background-color: #52154E;}
+    100% {background-color: #776885;}
+}
+.ani{
+    font-style: inherit;
+    margin: none;
+    border: none;
+    border-radius: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    transition: all ;
+    animation-name: anime;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+/* Animation ends here ----------------------- */
+/* This is for dropdown-------------------------------*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.ddown{
+    background-color: white;
+    font-style: italic;
+}
+.ddown:visited{
+    color: #241023;
+}
+.ddown:hover{
+    color: #DF2935;
+}
+.ddown:active{
+    color:#004777;
+}
+/* Regarding the headings in about page----------------------------------------------------------------------------------  */
+.abt:hover{
+    color: #ECA400;
+}
+.abtpara:hover{
+    color: #6D9DC5;
+}
+/* Regarding the styles on action page ------------------------------------------------------------------------------------ */
+.actborder:hover{
+    border: 5px solid  #B8DBD9;
+    box-shadow: -10px -10px #983628;
+}
+.actitle:hover{
+    color: #ffa600;
+}
+/* Regarding the styles on comedy page ----------------------------------------------------------------------------------- */
+.comborder:hover{
+    border: 5px solid   #110341;
+    box-shadow: -10px -10px #EDCF8E;
+}
+.cotitle:hover{
+    color: #E83151;
+}
+/* Regarding the styles on psychological page ----------------------------------------------------------------------------- */
+.psyborder:hover{
+    border: 5px solid  #B8DBD9 ;
+    box-shadow: -10px -10px #1a006e;
+}
+.pstitle:hover{
+    color: #27b9d6;
+}
+/* Regarding the styles on slice of life page ---------------------------------------------------------------------------- */
+.sliborder:hover{
+    border: 5px solid   #110341;
+    box-shadow: -10px -10px #72d5ff;
+}
+.sltitle:hover{
+    color: #FFCF00;
+}
+/* Regarding the styles on other category page ---------------------------------------------------------------------------- */
+.othborder:hover{
+    border: 5px solid #CC2936;
+    box-shadow: -10px -10px #B8DBD9;
+}
+.ottitle:hover{
+    color: #392759;
+}
+/* Regarding the styles of library------------ ---------------------------------------------------------------------------- */
+.lib:hover{
+    border: 4px solid  #B8DBD9;
+    box-shadow: -8px -8px #1B065E;
+}
+.l1title:hover{
+    color: #8a92ff;
+}
+.l2title:hover{
+    color: #FE5F00;
+}
+.l3title:hover{
+    color: #E63946;
+}
+.l4title:hover{
+    color: #ffc8a1;
+}
+.lasttitle:hover{
+    color: #9A48D0;
+}
